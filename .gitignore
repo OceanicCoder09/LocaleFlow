@@ -1,0 +1,36 @@
+## .NET / Visual Studio
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+TestResults/
+
+## Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+## Logs and Environment
+*.log
+.env
+.env.*
+!.env.example
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Local Personal Files
+*.pdf
+Resume_*.html
